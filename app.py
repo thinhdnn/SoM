@@ -206,4 +206,4 @@ with gr.Blocks() as demo:
         inputs=[inference_state, chatbot],
         outputs=[image_output])
 
-demo.queue().launch(debug=False, show_error=True)
+demo.queue().launch(debug=False, show_error=True, share=True)
